@@ -4,8 +4,8 @@
 <td>
   <form class="row border border-secondary" >
       <span style="margin:20px; margin-right:50px; width:300px;">{{category.title}} </span>
-      <button style="margin: 20px; margin-left:400px;" type="submit" class="btn btn-primary"><a href="{% url 'edit_category' category.pk %}"></a>Edit</button>
-      <button style="margin: 20px;" type="submit" class="btn btn-primary"><a href="{% url 'delete_category' category.pk %}"></a>Delete</button>
+      <button style="margin: 20px; margin-left:400px;" type="submit" class="btn btn-primary"><a style="color:black;" href="{% url 'edit_category' category.pk %}">Edit</a></button>
+      <button style="margin: 20px;" type="submit" class="btn btn-primary"><a style="color:black;" href="{% url 'delete_category' category.pk %}">Delete</a></button>
   </form>
 </td>
 {%endfor%}
