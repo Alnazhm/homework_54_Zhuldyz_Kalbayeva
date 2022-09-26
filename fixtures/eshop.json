@@ -1,0 +1,104 @@
+[
+{
+  "model": "eshop.category",
+  "pk": 1,
+  "fields": {
+    "title": "Kitchen",
+    "description": null
+  }
+},
+{
+  "model": "eshop.category",
+  "pk": 2,
+  "fields": {
+    "title": "Beauty",
+    "description": null
+  }
+},
+{
+  "model": "eshop.category",
+  "pk": 3,
+  "fields": {
+    "title": "Electronics",
+    "description": null
+  }
+},
+{
+  "model": "eshop.category",
+  "pk": 4,
+  "fields": {
+    "title": "Toys",
+    "description": ""
+  }
+},
+{
+  "model": "eshop.product",
+  "pk": 5,
+  "fields": {
+    "category": 4,
+    "title": "Kids car",
+    "product_description": "Kids Cars",
+    "price": "10",
+    "images_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBvg7jRVNmoieEubl0MxTiBJ17GhrMy_Zry74KOW4&s",
+    "created_at": "2022-09-26T13:41:23.644Z",
+    "changed_at": "2022-09-26T13:41:23.646Z"
+  }
+},
+{
+  "model": "eshop.product",
+  "pk": 6,
+  "fields": {
+    "category": 1,
+    "title": "Microwave Samsung",
+    "product_description": "Microwave Samsung",
+    "price": "30",
+    "images_url": "https://p.kindpng.com/picc/s/741-7415387_samsung-microwave-oven-png-background-image-samsung-microwave.png",
+    "created_at": "2022-09-26T13:51:01.178Z",
+    "changed_at": "2022-09-26T13:51:01.179Z"
+  }
+},
+{
+  "model": "eshop.product",
+  "pk": 7,
+  "fields": {
+    "category": 3,
+    "title": "Macbook Pro M1",
+    "product_description": "Macbooks with m1",
+    "price": "2000",
+    "images_url": "https://helios-i.mashable.com/imagery/articles/07h8VyPYrEQKBETlAfePHMw/hero-image.fill.size_1248x702.v1656575048.png",
+    "created_at": "2022-09-26T14:26:27.834Z",
+    "changed_at": "2022-09-26T14:26:27.835Z"
+  }
+},
+{
+  "model": "eshop.product",
+  "pk": 8,
+  "fields": {
+    "category": 3,
+    "title": "Earpods 3",
+    "product_description": "Earpods with excellent sound",
+    "price": "200",
+    "images_url": "https://fmobile.kz/media/sale/image/airpods-3rd-gen-wireless-charging-case-hero-alt-screen-usen_crXP51H.png",
+    "created_at": "2022-09-26T14:30:48.638Z",
+    "changed_at": "2022-09-26T14:30:48.638Z"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$4fY87um2FFsXum0hO243R9$DraprEFbGSlKoxXihcb1bvQ1oJebfYIs/M8FmQbZcXs=",
+    "last_login": "2022-09-25T06:18:14.674Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-09-25T06:17:05.250Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
