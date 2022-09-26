@@ -1,0 +1,12 @@
+.form-box{
+    display: flex;
+    margin:20px;
+}
+.menu{
+    display: flex;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+a{
+    text-decoration-line: underline;
+}
